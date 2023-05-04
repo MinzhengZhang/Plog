@@ -17,6 +17,7 @@ Since this is a past work, we don't maintain the past database for users and pos
 ![page](https://user-images.githubusercontent.com/90017890/236117410-ee9bf92f-d06b-4740-adf9-24b734643825.jpg)
 
 
+![edit page](https://user-images.githubusercontent.com/90017890/236117554-93446b02-314d-4690-a0a7-a0ab9011aecc.png)
 
 
 1. User can register an account in the "/register" page, which sends a POST request to the back-end. After submitting the form, users will be able to see text indicative of the registration result. 
