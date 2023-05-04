@@ -1,4 +1,4 @@
-## Assignment #4 Progress Update and Notes: 
+This project is made by Minzheng Zhang, Zijian Xiao and Silvia Lang
 To run this project, you need to build two js files. One is called dbConfig.js which is directly under controller folder.
 Another is called s3Config.js, which is under client/src folder. 
 
@@ -10,8 +10,15 @@ For s3Config.js, the file structure is like this:
 
 ![image](https://user-images.githubusercontent.com/90017890/205550664-8566224f-5e35-4a17-9a5a-bc086586fc4b.png)
 
+Since this is a past work, we don't maintain the past database for users and posts, you can download and run in localhost. 
 
-In Assignment #4, we completed the front- and back-end implementation for some of the features. Below is the list of fully implemented features.
+![login](https://user-images.githubusercontent.com/90017890/236117405-c953deb9-955e-477a-9f34-12612bea6bd5.jpg)
+
+![page](https://user-images.githubusercontent.com/90017890/236117410-ee9bf92f-d06b-4740-adf9-24b734643825.jpg)
+
+
+![page](https://user-images.githubusercontent.com/90017890/236117452-5bc400eb-97de-45b0-b414-6c26013ab987.jpg)
+
 
 1. User can register an account in the "/register" page, which sends a POST request to the back-end. After submitting the form, users will be able to see text indicative of the registration result. 
 2. User log in sends a POST request to the backend, which then returns a token stored in session storage. 
@@ -20,9 +27,7 @@ In Assignment #4, we completed the front- and back-end implementation for some o
 5. Activity feeds is available after logging in. It sends a GET request to get posts of followed users by default. However, for recently registered users who have not followed any other user, the system randomly displays feeds in the system as a starting point. 
 6. Following/unfollowing users sends a POST/DELETE request to the backend. This feature is available in feeds next to user name. For new users who have not followed any other user, the icon next to user name in their feeds are displayed as :heavy_plus_sign:, which means the user is not followed. Clicking on the icon will trigger following the user, and the icon will turn into :white_check_mark:, which means means already followed. Clicking it again will trigger unfollowing the user. 
 
-Please note the following features have not been fully implemented although their static components may be displayed. 
-1. Like/unlike post and the "Likes" section on NavBar.
-2. User suggestions in the "You may like" section.
+
 
  ## Table of Contents
 - [Available Scripts in the Front End](#available-scripts-in-the-front-end)
