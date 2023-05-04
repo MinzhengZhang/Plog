@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.GreenBackground {
+    max-width: 60%;
+    height: auto;
+}
+
+.RegisterContent,
+.SignInContent {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 30%;
+}
+
+.row {
+    padding-bottom: 10px;
+    background: #ffffff;
+}
+
+.row input,
+.row button {
+    border-radius: 25px;
+    width: 80%;
+    border-style: none;
+}
+
+.row input {
+    background: #F5F5F5;
+    height: 35px;
+    padding: 0px 0px 0px 15px;
+    box-sizing: border-box;
+}
+
+.row button {
+    background: #114411;
+    color: #ffffff;
+    height: 30px;
+    font-weight: 700;
+}
+
+.policy {
+    color: #808080;
+    font-size: 10px;
+}
+
+.googleSignin {
+    width: 80%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #114411;
+}
+
+
+
+.googleSignin img {
+    vertical-align: middle;
+    padding-right: 2%;
+    display: inline;
+}
+
+.googleSignin h5 {
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.googleSignin h5:before,
+.googleSignin h5:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.googleSignin h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.googleSignin h5:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.forgotPassword {
+    padding-top: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #114411;
+}
+
+.component {
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    padding-bottom: 10px;
+    border-spacing: 10px;
+    box-sizing: border-box;
+}
+
+.commentsTable {
+    width: 25%;
+    position: absolute;
+    top: 15%;
+    left: 74%;
+    padding-bottom: 10px;
+    border-spacing: 10px;
+    box-sizing: border-box;
+}
+
+.searchResult button {
+    background-color: #000;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 25px;
+    border-style: none;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.searchResult {
+    font-size: 18px;
+    display: table-row;
+}
+
+.searchResult span {
+    display: table-cell;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+
+
+.banner {
+    background-image: url('../assets/image/banner-bg.png');
+    background-color: #cccccc;
+}
+
+.bannerSearch {
+    position: absolute;
+    right: 10%
+}
